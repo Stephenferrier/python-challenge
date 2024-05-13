@@ -52,6 +52,7 @@ last_line = f"""-------------------------
 Winner: {max_c}
 -------------------------"""
 output += last_line
+print(output) #For printing in terminal 
 
 with (open("PyPoll_Results.txt", "w") as f):
     f.write(output)

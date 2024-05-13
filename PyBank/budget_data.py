@@ -56,6 +56,8 @@ kpi_data = {
         "Greatest Increase in Profit" : [max_month, max_change],
         "Greatest Decrease in Profit" : [min_month, min_change]
     } 
+print(kpi_data) #For terminal printing 
+
 with open("PyBank_Report.txt", "w") as file:
     file.write("Financial Analysis\n")
     file.write("----------------------------\n")
